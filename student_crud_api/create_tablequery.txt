@@ -1,0 +1,7 @@
+CREATE TABLE students (
+    student_id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(150) UNIQUE NOT NULL,
+    age INTEGER CHECK (age >= 18 AND age <= 100),
+    course TEXT[]
+);

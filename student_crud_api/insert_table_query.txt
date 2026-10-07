@@ -1,0 +1,13 @@
+INSERT INTO students
+(name, email, age, course)
+VALUES
+('Ram', 'ram@gmail.com', 25, ARRAY['Python', 'Generative AI']),
+('Bheem', 'bheem@gmail.com', 28, ARRAY['Java', 'Spring Boot']),
+('Arjun', 'arjun@gmail.com', 24, ARRAY['Python', 'SQL']),
+('Kavya', 'kavya@gmail.com', 23, ARRAY['Machine Learning', 'Generative AI']),
+('Priya', 'priya@gmail.com', 26, ARRAY['Java', 'Angular']),
+('Rahul', 'rahul@gmail.com', 29, ARRAY['AWS', 'DevOps']),
+('Sneha', 'sneha@gmail.com', 22, ARRAY['Python', 'Data Science']),
+('Vikram', 'vikram@gmail.com', 27, ARRAY['Docker', 'Kubernetes']),
+('Anjali', 'anjali@gmail.com', 24, ARRAY['Generative AI', 'Agentic AI']),
+('Kiran', 'kiran@gmail.com', 30, ARRAY['SQL', 'PostgreSQL']);
